@@ -1,0 +1,6 @@
+*.user
+.vs/
+T7-GSC/bin/
+T8-GSC/bin/
+T7-GSC/obj/
+T8-GSC/obj/
