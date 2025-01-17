@@ -18,3 +18,7 @@ This might not even be a thing in the current version of the compiler, BO3 might
 People have been selling this for a absurd amount of money, so here you go, enjoy!<br>
 This can be very easily injected on testkit/devkit with some modifications to the eboot.<br>
 I will be releasing the patches to do so shortly (if I don't forget), don't pay for this stuff!!!
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/0d0a6665-fced-4e6a-b0e6-bd5620df7962)
+
