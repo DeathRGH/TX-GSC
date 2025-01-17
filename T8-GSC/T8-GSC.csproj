@@ -69,13 +69,13 @@
     <Compile Include="Controls.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="libframe4\FRAME4.Console.cs" />
-    <Compile Include="libframe4\FRAME4.cs" />
-    <Compile Include="libframe4\FRAME4.Debug.cs" />
-    <Compile Include="libframe4\FRAME4.Kernel.cs" />
-    <Compile Include="libframe4\FRAME4.Proc.cs" />
-    <Compile Include="libframe4\Process.cs" />
-    <Compile Include="libframe4\Registers.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Console.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Debug.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Kernel.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Proc.cs" />
+    <Compile Include="libframe4-cs\libframe4\Process.cs" />
+    <Compile Include="libframe4-cs\libframe4\Registers.cs" />
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -69,13 +69,13 @@
     <Compile Include="Controls.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="libframe4\FRAME4.Console.cs" />
-    <Compile Include="libframe4\FRAME4.cs" />
-    <Compile Include="libframe4\FRAME4.Debug.cs" />
-    <Compile Include="libframe4\FRAME4.Kernel.cs" />
-    <Compile Include="libframe4\FRAME4.Proc.cs" />
-    <Compile Include="libframe4\Process.cs" />
-    <Compile Include="libframe4\Registers.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Console.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Debug.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Kernel.cs" />
+    <Compile Include="libframe4-cs\libframe4\FRAME4.Proc.cs" />
+    <Compile Include="libframe4-cs\libframe4\Process.cs" />
+    <Compile Include="libframe4-cs\libframe4\Registers.cs" />
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +97,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="libframe4-cs\README.md" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -112,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="folder-3-512.ico" />
+    <Content Include="libframe4-cs\.gitattributes" />
     <Content Include="T7.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

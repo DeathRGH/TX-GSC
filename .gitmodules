@@ -1,0 +1,6 @@
+[submodule "T7-GSC/libframe4-cs"]
+	path = T7-GSC/libframe4-cs
+	url = https://github.com/DeathRGH/libframe4-cs.git
+[submodule "T8-GSC/libframe4-cs"]
+	path = T8-GSC/libframe4-cs
+	url = https://github.com/DeathRGH/libframe4-cs.git
