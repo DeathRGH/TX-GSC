@@ -14,12 +14,12 @@ A pretty good one that is also fairly big to inject a lot of custom instrcutions
 <br>
 In the 1.33 eboot.bin this function is located at `0x5F2F90` in the file.
 
-1. Return Function
+1. Return Function<br>
 To prevent the game from calling this function we will write a simple return at the start.<br>
 This is required because we will write our string data there.<br>
 `5F2F90   C3   ret`
 
-2. Writing The Required Strings
+2. Writing The Required Strings<br>
 The strings we require are:
 - "rb" (used for `fopen`)
 - "/app0/compiled.gsc" (path to our custom compiled gsc file)
