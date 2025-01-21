@@ -72,7 +72,7 @@ We need a total of 4 function that the game imports (file addresses):
 ### Pseudo Code
 Here is some pseudo code to explain this example.<br>
 As we chose a clever entry point, the file name string will still be in one of the registers.<br>
-We can compare against that to see if the game is attempting to load `"scripts/shared/duplicaterender_mgr.gsc"`.<br>
+We can compare (`strcmp`) against that to see if the game is attempting to load `"scripts/shared/duplicaterender_mgr.gsc"`.<br>
 If that is the case we will allocate (`malloc`) memory to write our custom gsc file to using `fopen` and `fread`.
 Finally the address of the buffer is written to the location where the game expects the gsc file.
 ```c
