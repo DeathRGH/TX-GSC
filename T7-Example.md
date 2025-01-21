@@ -4,6 +4,8 @@ In this example I will show a way to inject a compiled gsc menu without using an
 This is achieved by simply hex editing the eboot, making this a viable option for test and devkits.<br>
 The compiled gsc file is read from the root of the pkg or hostapp directory.<br><br>
 The addresses used in this example are the file addresses so you can open your eboot.bin in a hex editor like HxD and edit it without any calculation required.
+<br><br>
+The compiled file to be used with this example can be found [here](https://github.com/DeathRGH/TX-GSC/blob/master/compiled.gsc).
 
 
 ## Required Strings
