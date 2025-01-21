@@ -16,8 +16,9 @@ Zero code changes are required for BO4 to compile for PS4.<br>
 BO3 just had a check for the database to be serialized with the correct tool or something like that in the version I used in 2021.<br>
 This might not even be a thing in the current version of the compiler, BO3 might just work too.<br><br>
 People have been selling this for a absurd amount of money, so here you go, enjoy!<br>
-This can be very easily injected on testkit/devkit with some modifications to the eboot.<br>
-I will be releasing the patches to do so shortly (if I don't forget), don't pay for this stuff!!!
+This can be very easily injected on testkit/devkit with some modifications to the eboot.<br><br>
+~~I will be releasing the patches to do so shortly (if I don't forget), don't pay for this stuff!!!~~<br>
+Check out [T7-Example](https://github.com/DeathRGH/TX-GSC/blob/master/T7-Example.md) for a method to inject only with a edited eboot.bin.
 
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/0d0a6665-fced-4e6a-b0e6-bd5620df7962)
