@@ -5,7 +5,7 @@ This is achieved by simply hex editing the eboot, making this a viable option fo
 The compiled gsc file is read from the root of the pkg or hostapp directory.<br><br>
 The addresses used in this example are the file addresses so you can open your eboot.bin in a hex editor like HxD and edit it without any calculation required.
 <br><br>
-The compiled file to be used with this example can be found [here](https://github.com/DeathRGH/TX-GSC/blob/master/compiled.gsc).
+The compiled file to be used with this example can be found [here](https://github.com/DeathRGH/TX-GSC/blob/master/T7Files/compiled.gsc).
 
 
 ## Required Strings
