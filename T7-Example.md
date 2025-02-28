@@ -79,7 +79,7 @@ Finally the address of the buffer is written to the location where the game expe
 if (!strcmp(#input_file_name, "scripts/shared/duplicaterender_mgr.gsc")) {
     char *buffer = (char *)malloc(0x461B0); // 0x461B0 = size of compiled gsc file + 1
     void *file = fopen("/app0/compiled.gsc", "rb");
-    fread (buffer, 1, 0x461AF, file); // 0x461AF = size of compiled gsc file
+    fread(buffer, 1, 0x461AF, file); // 0x461AF = size of compiled gsc file
     *(unsigned long long *)#input_file_address = buffer;
 }
 ```
@@ -101,7 +101,7 @@ Entry Point
 ```
 ```
         00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
-773A0E  .. .. .. .. .. .. .. .. .. .. .. .. .. .. E9 B8
+773A00  .. .. .. .. .. .. .. .. .. .. .. .. .. .. E9 B8
 773A10  F5 E7 FF
 ```
 Injection
